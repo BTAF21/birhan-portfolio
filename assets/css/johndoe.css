@@ -11623,8 +11623,9 @@ pre .code {
   border-right: 1px solid #dee2e6;
 }
 
-.about-section .about-card:last-child {
-  border-right: none;
+
+.about-section img{
+  margin-right: 10px;
 }
 
 .contact {
@@ -11647,7 +11648,7 @@ pre .code {
 
 @media (max-width: 991.98px) {
   .contact {
-    padding: 300px 0 0;
+    padding: 1px 0 0;
   }
   .contact .contact-form-card {
     border-bottom: 1px solid #dee2e6;
@@ -11655,6 +11656,12 @@ pre .code {
   .contact .contact-form-card,
   .contact .contact-info-card {
     min-height: auto !important;
+  }
+
+  .about-section .about-card:last-child {
+    margin-left: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
 
